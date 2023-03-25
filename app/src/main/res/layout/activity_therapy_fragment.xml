@@ -1,6 +1,630 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:text="Hello! this is the list of doctors.If you are feeling very very sad then you can connect with anyone"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back_1"
+            android:padding="16dp"
+            android:backgroundTint="#FFD700"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:elevation="8dp">
+
+
+
+            <TextView
+                android:id="@+id/doctor_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dr.  Aasra"
+                android:textSize="28dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/atma_semibold"
+                android:textStyle="bold"
+                android:paddingBottom="3dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/mail"/>
+
+                <TextView
+                    android:id="@+id/doctor_speciality"
+                    android:layout_width="match_parent"
+                    android:fontFamily="@font/atma_semibold"
+                    android:layout_marginLeft="2dp"
+                    android:layout_height="wrap_content"
+                    android:text=" aasrahelpline@yahoo.com"
+                    android:textSize="22sp"
+                    android:paddingBottom="3dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/address"/>
+
+
+                <TextView
+                    android:id="@+id/doctor_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/atma_semibold"
+                    android:layout_marginLeft="0dp"
+                    android:text=" C-123  teliarganj, Prayagraj,"
+                    android:textSize="22sp"
+                    android:paddingBottom="3dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/phone"/>
+
+                <TextView
+                    android:id="@+id/doctor_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" (+91) 9820466726"
+                    android:layout_marginLeft="0dp"
+                    android:fontFamily="@font/atma_semibold"
+                    android:textSize="22sp"
+                    android:paddingBottom="3dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/time"/>
+
+
+                <TextView
+                    android:id="@+id/doctor_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  24/7"
+                    android:layout_marginLeft="0dp"
+                    android:fontFamily="@font/atma_semibold"
+                    android:textSize="22sp"
+                    android:paddingBottom="3dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back_1"
+            android:padding="16dp"
+            android:backgroundTint="#C0C0C0"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:elevation="8dp">
+
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dr.  Samarth"
+                android:textSize="28dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/atma_semibold"
+                android:textStyle="bold"
+                android:paddingBottom="3dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/mail"/>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:fontFamily="@font/atma_semibold"
+                    android:layout_marginLeft="2dp"
+                    android:layout_height="wrap_content"
+                    android:text=" samarth.helpline@gmail.com"
+                    android:textSize="22sp"
+                    android:paddingBottom="3dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/address"/>
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/atma_semibold"
+                    android:layout_marginLeft="0dp"
+                    android:text=" b-134  Civil lines, Prayagraj,"
+                    android:textSize="22sp"
+                    android:paddingBottom="3dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/phone"/>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" (+91) 9348377328"
+                    android:layout_marginLeft="0dp"
+                    android:fontFamily="@font/atma_semibold"
+                    android:textSize="22sp"
+                    android:paddingBottom="3dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/time"/>
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  10:30 am - 5:00 pm"
+                    android:layout_marginLeft="0dp"
+                    android:fontFamily="@font/atma_semibold"
+                    android:textSize="22sp"
+                    android:paddingBottom="3dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back_1"
+            android:padding="16dp"
+            android:backgroundTint="#95F67952"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:elevation="8dp">
+
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dr.  Sumit"
+                android:textSize="28dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/atma_semibold"
+                android:textStyle="bold"
+                android:paddingBottom="3dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/mail"/>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:fontFamily="@font/atma_semibold"
+                    android:layout_marginLeft="2dp"
+                    android:layout_height="wrap_content"
+                    android:text=" sumithelp@gmail.com"
+                    android:textSize="22sp"
+                    android:paddingBottom="3dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/address"/>
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/atma_semibold"
+                    android:layout_marginLeft="0dp"
+                    android:text=" A-327 Katra market, Prayagraj,"
+                    android:textSize="22sp"
+                    android:paddingBottom="3dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/phone"/>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" (+91) 9374493247"
+                    android:layout_marginLeft="0dp"
+                    android:fontFamily="@font/atma_semibold"
+                    android:textSize="22sp"
+                    android:paddingBottom="3dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/time"/>
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  9:00 am - 4:00pm"
+                    android:layout_marginLeft="0dp"
+                    android:fontFamily="@font/atma_semibold"
+                    android:textSize="22sp"
+                    android:paddingBottom="3dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back_1"
+            android:padding="16dp"
+            android:backgroundTint="#ACEDED"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:elevation="8dp">
+
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dr.  Aakash"
+                android:textSize="28dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/atma_semibold"
+                android:textStyle="bold"
+                android:paddingBottom="3dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/mail"/>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:fontFamily="@font/atma_semibold"
+                    android:layout_marginLeft="2dp"
+                    android:layout_height="wrap_content"
+                    android:text=" aakhashhelpline@yahoo.com"
+                    android:textSize="22sp"
+                    android:paddingBottom="3dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/address"/>
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/atma_semibold"
+                    android:layout_marginLeft="0dp"
+                    android:text=" A-432 Govindpur, Prayagraj,"
+                    android:textSize="22sp"
+                    android:paddingBottom="3dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/phone"/>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" (+91) 9553241348"
+                    android:layout_marginLeft="0dp"
+                    android:fontFamily="@font/atma_semibold"
+                    android:textSize="22sp"
+                    android:paddingBottom="3dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/time"/>
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  24/7"
+                    android:layout_marginLeft="0dp"
+                    android:fontFamily="@font/atma_semibold"
+                    android:textSize="22sp"
+                    android:paddingBottom="3dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back_1"
+            android:padding="16dp"
+            android:backgroundTint="#E6E6FA"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:elevation="8dp">
+
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dr.  Akshat"
+                android:textSize="28dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/atma_semibold"
+                android:textStyle="bold"
+                android:paddingBottom="3dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/mail"/>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:fontFamily="@font/atma_semibold"
+                    android:layout_marginLeft="2dp"
+                    android:layout_height="wrap_content"
+                    android:text=" akshathelpline@yahoo.com"
+                    android:textSize="22sp"
+                    android:paddingBottom="3dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/address"/>
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/atma_semibold"
+                    android:layout_marginLeft="0dp"
+                    android:text=" D-342  Cant Area, Prayagraj,"
+                    android:textSize="22sp"
+                    android:paddingBottom="3dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/phone"/>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" (+91) 9820743672"
+                    android:layout_marginLeft="0dp"
+                    android:fontFamily="@font/atma_semibold"
+                    android:textSize="22sp"
+                    android:paddingBottom="3dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/time"/>
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  11:00 am - 5:00 pm"
+                    android:layout_marginLeft="0dp"
+                    android:fontFamily="@font/atma_semibold"
+                    android:textSize="22sp"
+                    android:paddingBottom="3dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="0dp"
+            android:gravity="center"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/cycleenjoyingcycling">
+
+        </com.airbnb.lottie.LottieAnimationView>
+
+
+    </LinearLayout>
+</ScrollView>
