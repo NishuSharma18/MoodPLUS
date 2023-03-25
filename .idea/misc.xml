@@ -3,8 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/movies/MoodPLUS/app/src/main/res/drawable/btn_bg.xml" value="0.1575" />
+        <entry key="..\:/movies/MoodPLUS/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1575" />
+        <entry key="..\:/movies/MoodPLUS/app/src/main/res/drawable/input_bg.xml" value="0.1" />
         <entry key="..\:/movies/MoodPLUS/app/src/main/res/layout/activity_quiz.xml" value="0.1" />
         <entry key="..\:/movies/MoodPLUS/app/src/main/res/layout/activity_result.xml" value="0.1" />
+        <entry key="..\:/movies/MoodPLUS/app/src/main/res/layout/activity_sign_in.xml" value="0.2857142857142857" />
+        <entry key="..\:/movies/MoodPLUS/app/src/main/res/layout/activity_sign_up.xml" value="0.2857142857142857" />
         <entry key="app/src/main/res/layout/activity_charts.xml" value="0.2953703703703704" />
         <entry key="app/src/main/res/layout/activity_chat_gpt.xml" value="0.2953703703703704" />
         <entry key="app/src/main/res/layout/activity_communities.xml" value="0.2953703703703704" />
