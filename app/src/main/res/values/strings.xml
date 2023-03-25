@@ -1,3 +1,61 @@
 <resources>
     <string name="app_name">MoodPLUS</string>
+    <string name="ChatGpt_key">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</string>
+    <string name="channel_description">channel description</string>
+    <string name="open_app_usage_setting">Open Apps with usage access settings</string>
+    <string name="last_time_used">"Last time used: "</string>
+    <string name="time_span">"Time span: "</string>
+
+    <string name="display_order_text">Sort by:</string>
+    <string name="app_name_label">App</string>
+    <string name="last_time_used_label">Last time used</string>
+    <!-- label for usage time -->
+    <string name="usage_time_label">Usage time</string>
+
+    <string name="google_map_key">AIzaSyDkUrL1457E9TBtHby-zVtWadQx37mBrKQ</string>
+
+    <string name="title_activity_maps">Map</string>
+    <string name="channel_name">channel Name</string>
+    <string name="finish">Finish</string>
+    <string name="next">Next</string>
+
+    <string-array name="nearby_option">
+
+        <item>Select a Type</item>
+        <item>Airport</item>
+        <item>ATM Booth</item>
+        <item>Bank</item>
+        <item>Bakery</item>
+        <item>Bar</item>
+        <item>Book Store</item>
+        <item>Bus Station</item>
+        <item>Car Rental</item>
+        <item>Car Repair</item>
+        <item>Car Wash</item>
+        <item>Coffee Shop</item>
+        <item>Clothing Store</item>
+        <item>Dentist</item>
+        <item>Doctor</item>
+        <item>Electronics Store</item>
+        <item>Embassy</item>
+        <item>Fire Service</item>
+        <item>Gas Station</item>
+        <item>Govt Office</item>
+        <item>Gym</item>
+        <item>Hospital</item>
+        <item>Jewelry Store</item>
+        <item>Laundry</item>
+        <item>Mosque</item>
+        <item>Movie Theater</item>
+        <item>Park</item>
+        <item>Pharmacy</item>
+        <item>Police Nearby</item>
+        <item>Post Office</item>
+        <item>Restaurant</item>
+        <item>School</item>
+        <item>Shopping Mall</item>
+        <item>University</item>
+
+
+    </string-array>
 </resources>
