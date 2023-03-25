@@ -3,7 +3,54 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".activities.ThoughtNoteActivity">
+    android:layout_height="match_parent">
+
+    <ProgressBar
+        android:id="@+id/th_message_progress"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_editor_absoluteX="105dp"
+        app:layout_editor_absoluteY="201dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/th_recycler_Messages"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/th_Write_Chat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/th_Write_Chat"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="9dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/back_1"
+        android:maxHeight="100dp"
+        android:minHeight="45dp"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/th_imageSend"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/th_imageSend"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/send_chat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_editor_absoluteX="355dp"
+        app:layout_editor_absoluteY="562dp"
+        android:layout_marginBottom="13dp"/>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

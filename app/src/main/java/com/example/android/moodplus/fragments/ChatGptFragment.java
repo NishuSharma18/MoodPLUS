@@ -22,10 +22,10 @@ import com.android.volley.Response;
 import com.android.volley.RetryPolicy;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
-import com.example.android.betaproject.model.Message;
-import com.example.android.betaproject.adapter.MessageAdapter;
-import com.example.android.betaproject.helper.MySingleton;
-import com.example.android.betaproject.R;
+import com.example.android.moodplus.model.Message;
+import com.example.android.moodplus.adapter.MessageAdapter;
+import com.example.android.moodplus.helper.MySingleton;
+import com.example.android.moodplus.R;
 import com.example.android.moodplus.R;
 
 import org.json.JSONArray;

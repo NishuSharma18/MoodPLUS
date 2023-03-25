@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
@@ -6,7 +5,8 @@
 
     <TextView
         android:id="@+id/click_btn"
-        android:text="@string/display_order_text"
+        android:text="Sort by :"
+        android:layout_margin="10dp"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
@@ -15,30 +15,10 @@
         android:id="@+id/typeSpinner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:entries="@array/usage_stats_display_order_types" />
+        android:entries="@array/usage_stats_display_order_types"
+        />
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
-        <TextView
-            android:text="@string/app_name_label"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_width="wrap_content"
-            android:paddingEnd="6dip"
-            android:layout_height="wrap_content" />
-        <TextView
-            android:text="@string/last_time_used_label"
-            android:paddingEnd="6dip"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-        <TextView
-            android:text="@string/usage_time_label"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-    </LinearLayout>
+
     <ListView android:id="@+id/pkg_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
