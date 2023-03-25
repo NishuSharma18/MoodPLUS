@@ -10,6 +10,6 @@ public class UsageStatsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_usage_stats);
+        setContentView(R.layout.usage_stats_activity);
     }
 }
