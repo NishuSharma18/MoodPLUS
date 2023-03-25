@@ -1,9 +1,232 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".activities.EmergencyActivity">
+    android:layout_height="match_parent">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView_aasra"
+            android:layout_width="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/view_gp1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/image_view1"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/nhs_logo" />
+
+                <TextView
+                    android:id="@+id/functions1_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/image_view1"
+                    android:gravity="center"
+                    android:text="24/7 urgent mental health support"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/emergency_call_view1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/functions1_tv"
+                    android:gravity="center"
+                    android:padding="16dp"
+                    android:text="Call helpline"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/emergency_site_view1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/emergency_call_view1"
+                    android:gravity="center"
+                    android:padding="16dp"
+                    android:text="Visit the website"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView_samaritan"
+            android:layout_width="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/view_gp2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/image_view2"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/nhs_logo" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/functions2_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/image_view2"
+                    android:gravity="center"
+                    android:text="24/7 urgent mental health support"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/emergency_call_view2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/functions2_tv"
+                    android:gravity="center"
+                    android:padding="16dp"
+                    android:text="Call helpline"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/emergency_site_view2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/emergency_call_view2"
+                    android:gravity="center"
+                    android:padding="16dp"
+                    android:text="Visit the website"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView_papyrus"
+            android:layout_width="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/view_gp3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/image_view3"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/nhs_logo" />
+
+                <TextView
+                    android:id="@+id/functions3_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/image_view3"
+                    android:gravity="center"
+                    android:text="24/7 urgent mental health support"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/emergency_call_view3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/functions3_tv"
+                    android:gravity="center"
+                    android:padding="16dp"
+                    android:text="Call helpline"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/emergency_site_view3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/emergency_call_view3"
+                    android:gravity="center"
+                    android:padding="16dp"
+                    android:text="Visit the website"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView_nhs"
+            android:layout_width="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/view_gp4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/image_view4"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/nhs_logo" />
+
+                <TextView
+                    android:id="@+id/functions4_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/image_view4"
+                    android:gravity="center"
+                    android:text="24/7 urgent mental health support"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/emergency_call_view4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/functions4_tv"
+                    android:gravity="center"
+                    android:padding="16dp"
+                    android:text="Call helpline"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/emergency_site_view4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/emergency_call_view4"
+                    android:gravity="center"
+                    android:padding="16dp"
+                    android:text="Visit the website"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>
