@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/layout/activity_charts.xml" value="0.2953703703703704" />
+        <entry key="app/src/main/res/layout/activity_chat_gpt.xml" value="0.2953703703703704" />
+        <entry key="app/src/main/res/layout/activity_communities.xml" value="0.2953703703703704" />
+        <entry key="app/src/main/res/layout/activity_communities_adapter.xml" value="0.2953703703703704" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.29128205128205126" />
+        <entry key="app/src/main/res/layout/activity_mood.xml" value="0.2953703703703704" />
+        <entry key="app/src/main/res/layout/activity_therapy_fragment.xml" value="0.2953703703703704" />
+        <entry key="app/src/main/res/layout/communities_holder.xml" value="0.2953703703703704" />
+        <entry key="app/src/main/res/layout/contacts_holder.xml" value="0.2953703703703704" />
+        <entry key="app/src/main/res/layout/fragment_home_tab.xml" value="0.2953703703703704" />
+        <entry key="app/src/main/res/layout/fragment_location.xml" value="0.2953703703703704" />
+        <entry key="app/src/main/res/layout/fragment_near_by.xml" value="0.2953703703703704" />
+        <entry key="app/src/main/res/layout/global_message_holder.xml" value="0.2953703703703704" />
+        <entry key="app/src/main/res/layout/item_message_bot.xml" value="0.2953703703703704" />
+        <entry key="app/src/main/res/layout/item_message_user.xml" value="0.2953703703703704" />
+        <entry key="app/src/main/res/layout/layout_place_single.xml" value="0.2953703703703704" />
+        <entry key="app/src/main/res/layout/thought_holder.xml" value="0.2953703703703704" />
+        <entry key="app/src/main/res/layout/usage_stats_activity.xml" value="0.2953703703703704" />
+        <entry key="app/src/main/res/layout/usage_stats_item.xml" value="0.2953703703703704" />
+        <entry key="app/src/main/res/layout/video_holder.xml" value="0.2953703703703704" />
+        <entry key="app/src/main/res/menu/bttom_menu.xml" value="0.2953703703703704" />
+        <entry key="app/src/main/res/menu/menu_vpadapter.xml" value="0.2953703703703704" />
+        <entry key="app/src/main/res/menu/profile_menu.xml" value="0.2953703703703704" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
