@@ -1,9 +1,585 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".activities.SuggestionActivity">
+    android:layout_height="match_parent">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".SuggestionActivitySadness">
+
+        <TextView
+            android:id="@+id/sad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:fontFamily="@font/atma_semibold"
+            android:gravity="center"
+            android:text="sad"
+            android:textColor="#FF000000"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/suggSad1"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/suggSad1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="36dp"
+            android:fontFamily="@font/atma_semibold"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="I noticed you're feeling "
+            android:textColor="#FF000000"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/suggSad2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/atma_semibold"
+            android:gravity="center"
+            android:text="Wanna try doing something that might make you feel better?"
+            android:textColor="#FF000000"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/suggSad1"
+            tools:ignore="HardcodedText" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/breath4"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:elevation="20dp"
+            app:cardCornerRadius="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/suggSad2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:background="@drawable/back_1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:orientation="vertical">
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        app:cardCornerRadius="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp">
+
+
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/img"
+                            android:layout_margin="5dp"
+                            android:scaleType="centerCrop"
+                            android:layout_gravity="center"
+                            android:src="@drawable/guru"/>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:id="@+id/meditation_sugg_activity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/atma_semibold"
+                        android:text="Meditation"
+                        android:textSize="20dp"
+                        android:textAlignment="@+id/img"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="0dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:orientation="vertical">
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        app:cardCornerRadius="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp">
+
+
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/img2"
+                            android:layout_margin="8dp"
+                            android:scaleType="centerCrop"
+                            android:layout_gravity="center"
+                            android:src="@drawable/breathing"/>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:id="@+id/breath_sugg_activity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/atma_semibold"
+                        android:text="Breathing"
+                        android:textSize="20dp"
+                        android:textAlignment="@+id/img"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="0dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/meditation4"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:elevation="20dp"
+            app:cardCornerRadius="30dp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/breath4">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:background="@drawable/back_1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:orientation="vertical">
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        app:cardCornerRadius="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp">
+
+
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/img3"
+                            android:layout_margin="5dp"
+                            android:scaleType="centerCrop"
+                            android:layout_gravity="center"
+                            android:src="@drawable/phone"/>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:id="@+id/connect_sugg_activity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/atma_semibold"
+                        android:text="Connect"
+                        android:textSize="20dp"
+                        android:textAlignment="@+id/img"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="0dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:orientation="vertical">
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        app:cardCornerRadius="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp">
+
+
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/img4"
+                            android:layout_margin="8dp"
+                            android:scaleType="centerCrop"
+                            android:layout_gravity="center"
+                            android:src="@drawable/gallery"/>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/atma_semibold"
+                        android:text="Memories"
+                        android:textSize="20dp"
+                        android:textAlignment="@+id/img"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="0dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/music4"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:elevation="20dp"
+            app:cardCornerRadius="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/meditation4">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:background="@drawable/back_1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:orientation="vertical">
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        app:cardCornerRadius="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp">
+
+
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/img7"
+                            android:layout_margin="5dp"
+                            android:scaleType="centerCrop"
+                            android:layout_gravity="center"
+                            android:src="@drawable/music"/>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:id="@+id/music_sugg_activity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/atma_semibold"
+                        android:text="Music"
+                        android:textSize="20dp"
+                        android:layout_gravity="center"
+                        android:textAlignment="@+id/img"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="0dp"/>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        app:cardCornerRadius="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp">
+
+
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/img8"
+                            android:layout_margin="5dp"
+                            android:scaleType="centerCrop"
+                            android:layout_gravity="center"
+                            android:src="@drawable/food"/>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:id="@+id/maps_sugg_activity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/atma_semibold"
+                        android:text="Map"
+                        android:layout_gravity="center"
+                        android:textSize="20dp"
+                        android:textAlignment="@+id/img"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="0dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="90dp"
+                    android:orientation="vertical">
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        app:cardCornerRadius="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp">
+
+
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/img6"
+                            android:layout_margin="8dp"
+                            android:scaleType="centerCrop"
+                            android:layout_gravity="center"
+                            android:src="@drawable/video"/>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:id="@+id/video_sugg_activity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/atma_semibold"
+                        android:text="Videos"
+                        android:textSize="20dp"
+                        android:textAlignment="@+id/img"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="0dp"/>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        app:cardCornerRadius="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp">
+
+
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/img5"
+                            android:layout_margin="3dp"
+                            android:scaleType="centerCrop"
+                            android:layout_gravity="center"
+                            android:src="@drawable/game"/>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:id="@+id/games_sugg_activity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/atma_semibold"
+                        android:text="Games"
+                        android:textSize="20dp"
+                        android:textAlignment="@+id/img"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="0dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/videos4"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:elevation="20dp"
+            app:cardCornerRadius="35dp"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:layout_constraintTop_toBottomOf="@+id/music4">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/back_1">
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/back_1"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:orientation="vertical">
+
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            app:cardCornerRadius="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp">
+
+
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:id="@+id/img10"
+                                android:layout_margin="5dp"
+                                android:scaleType="centerCrop"
+                                android:layout_gravity="center"
+                                android:src="@drawable/pray"/>
+
+                        </androidx.cardview.widget.CardView>
+
+                        <TextView
+                            android:id="@+id/gratitude_sugg_activtiy"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/atma_semibold"
+                            android:text="Gratitude"
+                            android:textSize="20dp"
+                            android:textAlignment="@+id/img"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginRight="0dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="60dp"
+                        android:orientation="vertical">
+
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            app:cardCornerRadius="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp">
+
+
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:id="@+id/img9"
+                                android:layout_margin="8dp"
+                                android:scaleType="centerCrop"
+                                android:layout_gravity="center"
+                                android:src="@drawable/journal"/>
+
+                        </androidx.cardview.widget.CardView>
+
+                        <TextView
+                            android:id="@+id/journal_sugg_activtiy"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/atma_semibold"
+                            android:text="Journal"
+                            android:textSize="20dp"
+                            android:textAlignment="@+id/img"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginRight="0dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottieAnimationView"
+            android:layout_width="195dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="19dp"
+            android:gravity="left"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/videos4"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/yoga3">
+
+        </com.airbnb.lottie.LottieAnimationView>
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="215dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="0dp"
+            android:gravity="right"
+            app:layout_constraintBottom_toBottomOf="parent"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/lottieAnimationView"
+            app:layout_constraintTop_toBottomOf="@+id/videos4"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/yoga2">
+
+        </com.airbnb.lottie.LottieAnimationView>
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

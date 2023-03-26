@@ -1,9 +1,208 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.MusicBreathingActivity">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back_1"
+            android:padding="16dp"
+            android:backgroundTint="#FF90EE90"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:elevation="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="clip_vertical"
+                    android:src="@drawable/breathing"/>
+
+                <TextView
+                    android:id="@+id/music_breathing_tv1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/atma_semibold"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text=" Deep Breathing"
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="70dp"
+                    android:src="@drawable/play_black"
+                    />
+
+
+            </LinearLayout>
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="150dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:fontFamily="@font/atma_semibold"
+                    android:layout_marginLeft="0dp"
+                    android:layout_height="150dp"
+                    android:text="It is a technique used to promote relaxation and reduce stress and anxiety. It involves taking slow, deep breaths, focusing on breathing deeply into the belly, and exhaling slowly and fully."
+
+                    android:textSize="22sp"
+                    android:paddingBottom="3dp"/>
+            </ScrollView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back_1"
+            android:padding="16dp"
+            android:backgroundTint="#90EE90"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:elevation="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="clip_vertical"
+                    android:src="@drawable/breathing"/>
+
+                <TextView
+                    android:id="@+id/music_breathing_tv2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/atma_semibold"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text=" Box Breathing"
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="80dp"
+                    android:src="@drawable/play_black"
+                    />
+
+
+            </LinearLayout>
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="150dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:fontFamily="@font/atma_semibold"
+                    android:layout_marginLeft="0dp"
+                    android:layout_height="150dp"
+                    android:text="This technique involves inhaling for a count of four, holding the breath for a count of four, exhaling for a count of four, and holding the breath for a count of four before repeating.."
+                    android:textSize="22sp"
+                    android:paddingBottom="3dp"/>
+            </ScrollView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back_1"
+            android:padding="16dp"
+            android:backgroundTint="#90EE90"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:elevation="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="clip_vertical"
+                    android:src="@drawable/breathing"/>
+
+                <TextView
+                    android:id="@+id/music_breathing_tv3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/atma_semibold"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text=" Coherent Breathing"
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/play_black"/>
+
+
+            </LinearLayout>
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="150dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:fontFamily="@font/atma_semibold"
+                    android:layout_marginLeft="0dp"
+                    android:layout_height="150dp"
+                    android:text="This technique involves breathing at a rate of five breaths per minute, which is believed to help regulate the nervous system, reduce stress."
+                    android:textSize="22sp"
+                    android:paddingBottom="3dp"/>
+            </ScrollView>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
