@@ -6,10 +6,10 @@
 
 
 ## Introduction:
-Introducing our groundbreaking app that takes emotional analysis to the next level !Our app detects the mood and emotion value of the person using the hidden camera feature in the lock screen mode by using tensorflow machine learning model and Google ML kit and provides personalized suggestions based on his determined mood. Our app also moniters the usage of some frequently used applications and takes weekly quizes to moniter the overall mood of user. Suggestions includes meditation, breathing, games, music, youtube videos based on his mood and also find places to elevate mood based on his location. We also introduced communities where people can vent out their emotions.   
+Introducing our groundbreaking app that takes emotion analysis to the next level! Our app detects the mood and emotion value of the person using the hidden camera feature when screen unlocks by using tensorflow machine learning model and Google ML kit and provides personalized suggestions based on his determined mood. Our app also moniters the usage of some frequently used applications and takes weekly quizes to moniter the overall mood of user. Suggestions includes meditation, breathing, games, music, youtube videos based on his mood and also find places to elevate mood based on his location. We also introduced communities where people can vent out their emotions.   
 
 ## Demo Video Link:
-  <a href="https://youtu.be/dQw4w9WgXcQ">https://youtu.be/c2Kxozciptg</a>
+  <a href="https://youtu.be/kQFn6Dlnx20">https://youtu.be/kQFn6Dlnx20</a>
 
 ## Presentation Link:
   <a href="https://cutt.ly/Hack36_23_ppt">https://docs.google.com/presentation/d/12w7NPUfM4zoVrRDqkcmPM1vzhDwopJJf/edit?usp=sharing&ouid=100546718666028274678&rtpof=true&sd=true</a>
