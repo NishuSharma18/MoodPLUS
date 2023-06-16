@@ -30,13 +30,13 @@ Introducing our groundbreaking app that takes emotional analysis to the next lev
   10) Youtube Api
 
 ## Scrrenshots:
-![Screenshot_20230326-020949](https://user-images.githubusercontent.com/93839989/227752087-daab6cc8-6c90-468f-8b29-2ff4ca8f978e.png)
-![Screenshot_20230326-021327](https://user-images.githubusercontent.com/93839989/227752910-9118c607-2125-4986-a368-a7d449c8390d.png)
-![Screenshot_20230326-021020](https://user-images.githubusercontent.com/93839989/227752003-48b52aba-2fd4-489f-8de4-d2f66d5b0384.png)
-![Screenshot_20230326-021050](https://user-images.githubusercontent.com/93839989/227752093-66f6cec2-ae41-42c7-b1b2-6feac713005e.png)
-![Screenshot_20230326-021226](https://user-images.githubusercontent.com/93839989/227752097-b1b56352-4394-4e8e-a506-6bfe85323c55.png)
-![WhatsApp Image 2023-03-26 at 8 04 53 AM](https://user-images.githubusercontent.com/93839989/227752163-62c8294b-137a-4673-9014-5d38cec18370.jpeg)
-![WhatsApp Image 2023-03-26 at 8 07 18 AM](https://user-images.githubusercontent.com/93839989/227752208-79979fc6-6556-443b-8728-612574f84d72.jpeg)
+<img src="https://user-images.githubusercontent.com/93839989/227752087-daab6cc8-6c90-468f-8b29-2ff4ca8f978e.png" width="280" height="580"><br />
+<img src="https://user-images.githubusercontent.com/93839989/227752910-9118c607-2125-4986-a368-a7d449c8390d.png" width="280" height="580"><br />
+<img src="https://user-images.githubusercontent.com/93839989/227752003-48b52aba-2fd4-489f-8de4-d2f66d5b0384.png" width="280" height="580"><br />
+<img src="https://user-images.githubusercontent.com/93839989/227752093-66f6cec2-ae41-42c7-b1b2-6feac713005e.png" width="280" height="580"><br />
+<img src="https://user-images.githubusercontent.com/93839989/227752097-b1b56352-4394-4e8e-a506-6bfe85323c55.png" width="280" height="580"><br />
+<img src="https://user-images.githubusercontent.com/93839989/227752163-62c8294b-137a-4673-9014-5d38cec18370.jpeg" width="280" height="580"><br />
+<img src="https://user-images.githubusercontent.com/93839989/227752208-79979fc6-6556-443b-8728-612574f84d72.jpeg" width="280" height="580"><br />
 
 
 ## Contributors:
